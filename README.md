@@ -5,20 +5,35 @@ Author -- Muhammad Faisal Anwar Khan
 # Property Business Problem
 Our business provide house rental and sale services. Customers can rent a place from owners directly from the website. The challenge for our company is to decide the perfect price for a place.
 pip install tabulate
+<br>
 #importing all required libraries
+<br>
 import pandas as pd
+<br>
 import numpy as np
+<br>
 import matplotlib.pyplot as plt
+<br>
 import seaborn as sns
+<br>
 from sklearn.model_selection import cross_val_score, train_test_split, GridSearchCV
+<br>
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+<br>
 from sklearn.linear_model import LinearRegression
+<br>
 from sklearn.metrics import mean_squared_error, mean_absolute_error
+<br>
 from sklearn.decomposition import PCA
+<br>
 from sklearn.neighbors import KNeighborsRegressor
+<br>
 import warnings
+<br>
 warnings.filterwarnings("ignore")
+<br>
 from tabulate import tabulate
+<br>
 
 %matplotlib inline
 
